@@ -14,6 +14,6 @@ I wrote an article explaining the main points of the project and how to test: ht
 
 ### Running
 The easiest way to run PostgreSQL is using ``Docker``. 
-With it installed, just run the command ``docker run --name postgres -p 5432:5432 -d postgres``
+With it installed, just run the command ``docker run --name postgres -p 5432:5432 -e POSTGRES_PASSWORD=postgres -d postgres``
 
 Now just run the ``DemoApplication class``. In the ``IntelliJ IDEA`` right click on it and click on ``Run 'DemoApplication.main()'``.
